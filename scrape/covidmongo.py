@@ -2,7 +2,7 @@
 import pymongo
 from pymongo import MongoClient
 
-# Connecting code to Cluster
+# Connecting Code to Cluster
 cluster = MongoClient("mongodb+srv://VishnuMano:COVID@cluster0.itvsv.mongodb.net/disease?retryWrites=true&w=majority")
 collection = cluster.disease.covid
 
